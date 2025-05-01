@@ -1,0 +1,30 @@
+{
+    "name": "anthony/laravel-multi-queue",
+    "description": "Have a Laravel job worker listen to multiple queues instead of just one!",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthony Edmonds",
+            "email": "contact@anthonyedmonds.me",
+            "homepage": "https://anthonyedmonds.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8",
+        "laravel/framework": "^12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anthony\\LaravelMultiQueue\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AnthonyEdmonds\\LaravelMultiQueue\\MultiQueueServiceProvider"
+            ]
+        }
+    }
+}
