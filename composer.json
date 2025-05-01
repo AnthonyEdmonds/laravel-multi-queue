@@ -1,5 +1,5 @@
 {
-    "name": "anthony/laravel-multi-queue",
+    "name": "anthonyedmonds/laravel-multi-queue",
     "description": "Have a Laravel job worker listen to multiple queues instead of just one!",
     "type": "library",
     "license": "MIT",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Anthony\\LaravelMultiQueue\\": "src/"
+            "AnthonyEdmonds\\LaravelMultiQueue\\": "src/"
         }
     },
     "extra": {
