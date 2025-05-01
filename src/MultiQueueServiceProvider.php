@@ -5,7 +5,7 @@ namespace AnthonyEdmonds\LaravelMultiQueue;
 use Illuminate\Support\Facades\Queue;
 use Illuminate\Support\ServiceProvider;
 
-class AppServiceProvider extends ServiceProvider
+class MultiQueueServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
