@@ -14,7 +14,7 @@ The only driver currently supported is Laravel's `database` driver.
 
 1. Install the library using Composer:
     ```bash
-   composer require anthonyedmonds\laravel-multi-queue
+   composer require anthonyedmonds/laravel-multi-queue
    ``` 
 2. Adjust your `queue` configuration file:
     * Set the `driver` of your database queue to `multi-queue`
